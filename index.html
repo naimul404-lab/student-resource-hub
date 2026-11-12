@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Resource Hub</title>
+    <meta
+      name="description"
+      content="Student Resource Hub helps students find trusted free learning resources by subject, difficulty, and format."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand-wrap">
+          <div class="brand-mark">SR</div>
+          <div>
+            <p class="eyebrow">Free learning</p>
+            <h1>Student Resource Hub</h1>
+          </div>
+        </div>
+        <a class="nav-link" href="#resources">Browse resources</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="section-tag">Find useful learning tools</p>
+            <h2>Discover trusted resources for every subject.</h2>
+            <p class="hero-copy">
+              Explore free tutorials, practice platforms, and study guides curated for students who
+              want clear, practical learning materials without clutter.
+            </p>
+            <div class="hero-chips" aria-label="Common subjects">
+              <span>Python</span>
+              <span>Math</span>
+              <span>Web Dev</span>
+              <span>Science</span>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h3>Why students use this</h3>
+            <ul>
+              <li>Search by subject or keyword</li>
+              <li>Filter by difficulty and format</li>
+              <li>Explore free, beginner-friendly options</li>
+              <li>Keep learning organized and focused</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="resources-section">
+        <div class="container">
+          <div class="toolbar" aria-label="Search and filter resources">
+            <label class="search-box" for="searchInput">
+              <span>Search</span>
+              <input id="searchInput" type="search" placeholder="Search resources or topics" />
+            </label>
+
+            <div class="filter-row">
+              <label>
+                <span>Subject</span>
+                <select id="subjectFilter">
+                  <option value="all">All subjects</option>
+                </select>
+              </label>
+
+              <label>
+                <span>Difficulty</span>
+                <select id="difficultyFilter">
+                  <option value="all">All levels</option>
+                  <option value="Beginner">Beginner</option>
+                  <option value="Intermediate">Intermediate</option>
+                  <option value="Advanced">Advanced</option>
+                </select>
+              </label>
+
+              <label>
+                <span>Format</span>
+                <select id="typeFilter">
+                  <option value="all">All formats</option>
+                  <option value="Course">Course</option>
+                  <option value="Practice">Practice</option>
+                  <option value="Tutorial">Tutorial</option>
+                  <option value="Reference">Reference</option>
+                  <option value="Guide">Guide</option>
+                </select>
+              </label>
+
+              <button id="clearFilters" class="secondary-button" type="button">Clear</button>
+            </div>
+          </div>
+
+          <div id="resultsSummary" class="results-summary" aria-live="polite"></div>
+          <div id="resourcesGrid" class="resource-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>Student Resource Hub</p>
+        <p>Free, practical, and student-friendly learning tools.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

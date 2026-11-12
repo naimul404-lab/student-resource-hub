@@ -1,0 +1,110 @@
+[
+  {
+    "title": "freeCodeCamp",
+    "subject": "Web Development",
+    "difficulty": "Beginner",
+    "type": "Course",
+    "description": "A large library of free coding lessons, projects, and certificates covering web development and computer science basics.",
+    "url": "https://www.freecodecamp.org/",
+    "tags": ["HTML", "CSS", "JavaScript", "Projects"]
+  },
+  {
+    "title": "Khan Academy",
+    "subject": "Mathematics",
+    "difficulty": "Beginner",
+    "type": "Course",
+    "description": "A trusted free platform for math, science, and general learning with practice exercises and step-by-step explanations.",
+    "url": "https://www.khanacademy.org/",
+    "tags": ["Algebra", "Statistics", "Practice"]
+  },
+  {
+    "title": "MDN Web Docs",
+    "subject": "Web Development",
+    "difficulty": "Intermediate",
+    "type": "Reference",
+    "description": "A reliable documentation source for HTML, CSS, JavaScript, and browser APIs used by web developers.",
+    "url": "https://developer.mozilla.org/",
+    "tags": ["Docs", "HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "Python for Everybody",
+    "subject": "Programming",
+    "difficulty": "Beginner",
+    "type": "Course",
+    "description": "A well-known beginner-friendly Python course focused on practical coding and data handling.",
+    "url": "https://www.py4e.com/",
+    "tags": ["Python", "Programming", "Data"]
+  },
+  {
+    "title": "CS50x",
+    "subject": "Computer Science",
+    "difficulty": "Beginner",
+    "type": "Course",
+    "description": "Harvard's introduction to computer science covers programming, problem solving, and foundational computing concepts.",
+    "url": "https://cs50.harvard.edu/x/2024/",
+    "tags": ["C", "Algorithms", "Foundations"]
+  },
+  {
+    "title": "W3Schools",
+    "subject": "Web Development",
+    "difficulty": "Beginner",
+    "type": "Tutorial",
+    "description": "A simple and practical reference for learning core web technologies through examples and quick exercises.",
+    "url": "https://www.w3schools.com/",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "title": "Crash Course Biology",
+    "subject": "Biology",
+    "difficulty": "Beginner",
+    "type": "Guide",
+    "description": "Short, engaging biology lessons that explain major ideas in an easy-to-understand way for students.",
+    "url": "https://thecrashcourse.com/",
+    "tags": ["Biology", "Life Science", "Videos"]
+  },
+  {
+    "title": "BBC Bitesize",
+    "subject": "Science",
+    "difficulty": "Beginner",
+    "type": "Guide",
+    "description": "A concise, accessible learning platform covering science, maths, and revision-friendly explanations.",
+    "url": "https://www.bbc.co.uk/bitesize",
+    "tags": ["Revision", "Science", "Study"]
+  },
+  {
+    "title": "LeetCode",
+    "subject": "Programming",
+    "difficulty": "Intermediate",
+    "type": "Practice",
+    "description": "Good for practicing problem solving, algorithms, and interview-style coding questions at different levels.",
+    "url": "https://leetcode.com/",
+    "tags": ["Algorithms", "Practice", "Coding"]
+  },
+  {
+    "title": "Coursera",
+    "subject": "Computer Science",
+    "difficulty": "Intermediate",
+    "type": "Course",
+    "description": "Offers free-to-audit courses from universities and institutions on a wide range of technology topics.",
+    "url": "https://www.coursera.org/",
+    "tags": ["University", "Learning", "CS"]
+  },
+  {
+    "title": "Project Euler",
+    "subject": "Mathematics",
+    "difficulty": "Advanced",
+    "type": "Practice",
+    "description": "A challenge-based collection of mathematical problem-solving exercises designed for learners who enjoy deeper reasoning.",
+    "url": "https://projecteuler.net/",
+    "tags": ["Math", "Problem Solving", "Logic"]
+  },
+  {
+    "title": "OpenStax",
+    "subject": "Science",
+    "difficulty": "Beginner",
+    "type": "Reference",
+    "description": "Free, peer-reviewed textbooks for many subjects including biology, chemistry, and physics.",
+    "url": "https://openstax.org/",
+    "tags": ["Textbook", "Biology", "Physics"]
+  }
+]

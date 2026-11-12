@@ -1,20 +1,20 @@
 # Student Resource Hub
 
-A small, student-friendly website for finding free learning resources by subject, difficulty, and format. The project is designed to help students discover useful resources quickly without needing accounts, subscriptions, or tracking.
+A student-friendly website for discovering useful learning resources by subject, difficulty, and format. It is designed to help students quickly find free materials for learning without needing to search across many websites.
 
-## Why this project is useful
+## Why this project matters
 
-Students often need a simple place to discover high-quality learning resources. This project provides a clean, searchable directory of free materials for programming, math, science, and general learning.
+Students often need a simple place to discover reliable resources when they are learning on their own. This project gives them a clean, searchable directory of learning materials for programming, math, science, design, and general study support.
 
 ## Features
 
-- search by keyword, topic, or subject
-- filter by subject, difficulty, and resource type
-- browse free, beginner-friendly resources
-- easy to expand with more resources in the future
-- no sign-in required
-- mobile-friendly, accessible layout
-- static site with no build tool required
+- Search by keyword, topic, or subject
+- Filter by subject, difficulty, and resource type
+- Browse free, beginner-friendly learning resources
+- Easy to expand with more resources over time
+- No sign-in required
+- Mobile-friendly, simple, and accessible design
+- Static site with no build step or dependencies
 
 ## Project structure
 
@@ -26,7 +26,8 @@ student-resource-hub/
 ├── data/
 │   └── resources.json
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
 ## Run locally
@@ -34,7 +35,7 @@ student-resource-hub/
 Because this is a static site, you can either:
 
 1. Open `index.html` directly in a browser, or
-2. Serve it locally with a simple Python server:
+2. Serve it locally with a Python server:
 
 ```bash
 python -m http.server 8000
@@ -46,9 +47,9 @@ Then open:
 http://localhost:8000
 ```
 
-## Add more resources
+## Add or improve resources
 
-Edit the JSON file in `data/resources.json` to add new learning links and tags. Each item should include:
+Edit `data/resources.json` to add new learning links and tags. Each item can include:
 
 - title
 - subject
@@ -58,14 +59,24 @@ Edit the JSON file in `data/resources.json` to add new learning links and tags. 
 - url
 - tags
 
+This makes the project easy to grow as your resource list expands.
+
+## What this project shows
+
+This project is a strong portfolio example because it solves a real student problem:
+
+- finding useful learning materials
+- organizing them in one place
+- making study support easier to access
+
 ## Contributing
 
 This project is good for small improvements such as:
 
 - adding more resources
-- improving the design
+- improving design and layout
 - improving accessibility
-- adding sorting and favorites
+- adding favorites or sorting
 - creating category pages
 
 ## License
